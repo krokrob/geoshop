@@ -32,6 +32,10 @@ gem 'jbuilder', '~> 2.5'
 
 gem "figaro"
 
+gem 'devise'
+gem "devise-i18n"
+gem 'devise-i18n-views'
+
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
 gem 'simple_form'
