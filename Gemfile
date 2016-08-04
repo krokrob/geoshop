@@ -6,7 +6,7 @@ gem 'rails', '~> 5.0.0'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.18'
 # Use Puma as the app server
-gem 'puma', '~> 3.0'
+# gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -52,6 +52,11 @@ group :development do
   gem "binding_of_caller"
   gem "pry-rails"
   gem "pry-byebug"
+end
+
+group :production do
+  gem 'rails_12factor'
+  gem 'puma'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
