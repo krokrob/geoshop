@@ -3,8 +3,6 @@ class CreateShops < ActiveRecord::Migration[5.0]
     create_table :shops do |t|
       t.string :name
       t.string :address
-      t.string :zip
-      t.string :city
       t.float :latitude
       t.float :longitude
       t.references :user, foreign_key: true

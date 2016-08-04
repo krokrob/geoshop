@@ -29,8 +29,6 @@ ActiveRecord::Schema.define(version: 20160804135336) do
   create_table "shops", force: :cascade do |t|
     t.string   "name"
     t.string   "address"
-    t.string   "zip"
-    t.string   "city"
     t.float    "latitude"
     t.float    "longitude"
     t.integer  "user_id"
