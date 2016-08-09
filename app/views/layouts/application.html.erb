@@ -11,6 +11,7 @@
 
   <body>
     <%= yield %>
+    <script src="https://maps.googleapis.com/maps/api/js?key="></script>
     <%= javascript_include_tag 'application' %>
     <%= yield(:after_js) %>
   </body>

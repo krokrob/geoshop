@@ -6,4 +6,5 @@ class OffersController < ApplicationController
     @offers = Offer.all
   end
 
+
 end
