@@ -1,6 +1,6 @@
 class Shop < ApplicationRecord
   belongs_to :user
-  has_many :offers
+  has_many :offers, dependent: :destroy
 
   validates :user, presence: true
   validates :name, presence: true
