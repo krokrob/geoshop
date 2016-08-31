@@ -1,0 +1,12 @@
+<div class="container padded">
+  <div class="row">
+    <div class="col-xs-12">
+      <h1>Create your shop:</h1>
+      <%= simple_form_for @shop do |f| %>
+        <%= f.input :name %>
+        <%= f.input :address %>
+        <%= f.submit "Add", class: "btn btn-primary" %>
+      <% end %>
+    </div>
+  </div>
+</div>
