@@ -1,5 +1,5 @@
 class ShopsController < ApplicationController
-  before_action :set_shop
+  before_action :set_shop, only: :show
 
   def new
     @shop = Shop.new
@@ -18,7 +18,7 @@ class ShopsController < ApplicationController
   end
 
   def show
-
+    @offer = Offer.new
   end
 
   private

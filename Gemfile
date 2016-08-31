@@ -31,7 +31,6 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 gem "figaro"
-
 gem 'devise'
 gem 'i18n'
 gem "devise-i18n"
@@ -42,6 +41,7 @@ gem "gmaps4rails"
 
 source 'https://rails-assets.org' do
   gem "rails-assets-underscore"
+  gem "rails-assets-bootstrap-datepicker"
 end
 
 gem 'bootstrap-sass'
